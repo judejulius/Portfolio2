@@ -1,0 +1,8 @@
+
+body{
+  font-family: "Comfortaa";
+}
+.background{
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/jonatan-pie-h8nxGssjQXs-unsplash.jpg);
+  background-size:cover;
+}
