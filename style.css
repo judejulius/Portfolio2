@@ -3,6 +3,66 @@ body{
   font-family: "Comfortaa";
 }
 .background{
-  background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/jonatan-pie-h8nxGssjQXs-unsplash.jpg);
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/jonatan-pie-h8nxGssjQXs-unsplash.jpg);
   background-size:cover;
+}
+@media screen and (min-width: 400px) {
+  .home-header{
+    font-size: 1em;
+    padding-bottom: 30px;
+  }
+}
+section{
+  padding-bottom: 100px;
+  background-color: rgba(239, 238, 243, 1);
+}
+
+h1 {
+  padding: 30px 0 8px;
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  left: 40%;
+  bottom: 16px;
+  width: 150px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: #0d6efd;
+  z-index: -1;
+}
+.skills::before {
+  content: "";
+  position: absolute;
+  left: 45%;
+  bottom: 16px;
+  width: 150px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: #0d6efd;
+  z-index: -1;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  left: 38%;
+  bottom: 10px;
+  width: 150px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: #0d6efd;
+  z-index: -1;
+}
+.project::before {
+  content: "";
+  position: absolute;
+  left: 41%;
+  bottom: 13px;
+  width: 150px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: #0d6efd;
+  z-index: -1;
 }
