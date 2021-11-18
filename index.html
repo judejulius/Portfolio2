@@ -15,74 +15,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    
     <main role="main">
-    <article id="webslides">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Jude Julius</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="#slide=1">Home</a>
+            <a class="nav-link" href="#slide=2">About</a>
+            <a class="nav-link" href="#slide=9">Contact</a>
+          </nav>
+        </div>
+      </header>
+    <article id="webslides" class="horizontal">
+      
+      <section class="bg-primary">
+        <span class="background dark" style="background-image:url(/images/background.jpg)"></span>
+         <div class="wrap aligncenter">
+           <h1 class="text-landing">Jude Julius</h1>
+           <p class="text-symbols">
+            <a href="tel:0813808892"><i class="bi-1 bi-whatsapp p-2" style="font-size: 40px;"></a></i>
+            <a href="https://github.com/judejulius/Portfolio"><i class="bi-1 bi-github p-2" style="font-size: 40px;"></a></i>
+            <a href="https://www.linkedin.com/in/jude-julius-a56299212"><i class="bi-1 bi-linkedin p-2" style="font-size: 40px;"></i></a>
+            <a href="https://codepen.io/your-work/"><i class="fab fa-codepen p-2" style="font-size: 40px;"></i></a>
+          </p>
+           <p><a class="button ghost" href="#slide=2">----> slide</a>
+           </p>
+         </div>
+       </section>
     <section>
-      <span class="background"></span>
-<div class="wrap aligncenter">
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <h1 style="font-size: 10rem; color: aliceblue;">JUDE JULIUS</h1>
-      <p class="lead" style="font-size: 6rem; color: aliceblue;padding-top: 40px;">Aspiring Developer</p>
-  </div>
-</div>
-    </section>
-    <section style="width: 100vw;">
       <div class="wrap">
+        <!-- About me -->
         <h1 class="header aligncenter"><strong>ABOUT ME</strong></h1>
-        <div class="grid vertical-align">
+        <div class="grid vertical-align" style="padding-left: 100px;">
           <div class="column">
-            <h4><strong>I am Jude Julius , A Frontend-Developer</strong></h4>
+            <h4><strong>I am Jude Julius<br> A Frontend-Developer</strong></h4>
             <p class="p1 text-intro">
               I am a hard-working, critical thinker who enjoys challenges and problem-solving. I work well on my own but also as a team. Furthermore, I enjoy talking to people about informative topics
             </p>
           </div>
           <div class="column">
-            <img src="/images/Jude3.JPG" alt="" width="90%">
+            <img src="/images/Jude3.JPG" alt="" width="90%" style="border-radius: 100%;">
             </div>
           </div>
         </div>
       </div>
-      <div class="wrap">
-        <div class="grid vertical-align">
-          <div class="column">
-          <ul class="list-unstyled">
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Full name : </strong><span> Jude Antonio Julius</span></li>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Birth Date : </strong><span>23/12/1998</span></li>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>City : </strong><span> Cape Town</span></li>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Email : </strong><span>www.judejulius@gmail.com</span></li>
-          </ul>
-        </div>
-          <div class="column">
-            <ul>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Age : </strong><span>23</span></li>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Gender : </strong><span>Male</span></li>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Location : </strong><span>Lansdowne</span></li>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Phone : </strong><span>081 380 8892</span></li>
-            <li><i class="bi bi-arrow-right-short text-primary" style="font-size: 2em;" ></i><strong>Freelance : </strong><span>Available</span></li>
-            </ul>
-          </div>
-        </div>
-       
-      </div>
     </section>
-    <section>
+    <!-- skills -->
+    <section id="skills" class="bg-primary">
       <div class="wrap">
         <h1 class="skills aligncenter"><strong>SKILLS</strong></h1>
-        <ul class="flexblock features">
-          <li>
+        <ul class="flexblock features bg-trans-dark fadeInUp">
+          <li class="bg-trans-dark">
             <h3>HTML</h3>
-            <p class="aligncenter"><i class="fab fa-html5" style="font-size: 80px"></i></p>
+            <p class="aligncenter "><i class="fab fa-html5" style="font-size: 80px"></i></p>
             <div class="progress">
               <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </li>
           <li>
+            <div>
             <h3>CSS</h3>
             <p class="aligncenter"><i class="fab fa-css3-alt" style="font-size: 80px"></i></p>
             <div class="progress">
-              <div class="progress-bar bg-primary" role="progressbar" style="width: 20%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+            
           </li>
           <li>
             <h3>JAVASCRIPT</h3>
@@ -92,30 +91,53 @@
             </div>
           </li>
           <li>
+            <h3>NodeJs</h3>
+            <p class="aligncenter"><i class="fab fa-node-js"style="font-size: 80px"></i></i></p>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </li>
+          <li>
             <h3>BOOTSTRAP</h3>
             <p class="aligncenter"><i class="fab fa-bootstrap" style="font-size: 80px"></i></p>
             <div class="progress">
-              <div class="progress-bar bg-primary" role="progressbar" style="width: 20%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </li>
           <li>
             <h3>GRAPHIC DESIGN</h3>
-            <p><img src="/images/corel-draw-icon-5661.png" alt=""></p><br>
+            <p class="aligncenter"><img src="/images/corel-draw-icon-5661.png" alt=""></p><br>
             <div class="progress">
-              <div class="progress-bar bg-primary" role="progressbar" style="width: 20%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </li>
           <li>
             <h3>COMPUTER HARDWARE</h3>
-            <p><i class="fas fa-memory" style="font-size: 80px;padding-left: 10px;"></i><i class="fas fa-ethernet" style="font-size: 80px;padding-left: 10px;"></i><i class="fas fa-server" style="font-size: 80px;padding-left: 10px;"></i></p>
+            <p class="aligncenter"><i class="fas fa-desktop" style="font-size: 80px;"></i></p>
             <div class="progress">
-              <div class="progress-bar bg-primary" role="progressbar" style="width: 20%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </li>
+          <li>
+            <h3>GIT</h3>
+            <p class="aligncenter"><i class="fab fa-git-alt" style="font-size: 80px"></i></p>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </li>
+          
+          <li>
+            <h3>PYTHON</h3>
+            <p class="aligncenter"><i class="fab fa-python" style="font-size: 80px"></i></i></p>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 10%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </li>
         </ul>
       </div>
     </section>
-    <section>
+    <!-- projects -->
+    <section id="project">
       <div class="wrap">
         <h1 class="project aligncenter"><strong>PROJECTS</strong></h1>
         <ul class="flexblock gallery">
@@ -167,27 +189,70 @@
         </ul>
       </div>
     </section>
+    <!-- testimonial -->
+    <section class="bg-primary">
+      <span class="background" style="background-image:url(/images/solen-feyissa-thT613pglmM-unsplash.jpg)"></span>
+      <div class="wrap">
+        <div class="content-center bg-trans-dark fadeInUp">
+          <h2><strong>Testimonial</strong></h2>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial" class="bg-dark">
+      <span class="background-left-bottom"><img src="/images/ubaidallah_adobespark.png" alt="" style="width: 70%;position: fixed;bottom: 0;"></span>
+      <div class="wrap fadeIn slow">
+        <div class="content-right">
+          <blockquote>
+            <p class="text-white">"Jude is a wonderful person who always tries to advise you when you need it, I am inspired by him to be just as hard working and dedicated as he is"</p>
+            <p class="text-white"><cite>Ubaidullah, Frontend Developer</cite></p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial" class="bg-dark">
+      <span class="background-left-bottom"><img src="/images/Seth4_12_adobespark.png" alt="" style="width: 70%;position: fixed;bottom: 0;"></span>
+      <div class="wrap fadeIn slow">
+        <div class="content-right">
+          <blockquote>
+            <p class="text-white">"Since the first day I met Jude, he has been an awesome, trustworthy colleague and friend with lots of leadership qualities!</p>
+            <p class="text-white"><cite>Seth, Frontend Developer</cite></p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial" class="bg-dark">
+      <span class="background-left-bottom"><img src="/images/Azabenathi3_80_1_12_adobespark.png" alt="" style="width: 70%;position: fixed;bottom: 0;"></span>
+      <div class="wrap fadeIn slow">
+        <div class="content-right">
+          <blockquote>
+            <p class="text-white">"Jude is a very grounded person & he's always willing to help the next person"</p>
+            <p class="text-white"><cite>Azabenathi, Frontend Developer</cite></p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
       <section id="contact">
+        <div class="wrap">
         <h1 class="contact show-on-scroll pb-2" style="text-align: center;font-size: 4em;color: #3b434a; z-index: 1;">Contact Me</h1>
         <div class="container">
           <div class="row" style="overflow: hidden;">
             <div class="col-lg-6" data-aos="fade-up-right">
               <div class="h-100 p-5 border rounded-3">
-                <h2 style="text-align: center;" class="text-muted">Social Media</h2><br><br>
                 <p class="social-media" style="text-align: center; overflow: hidden;">
                   <a href="https://www.facebook.com/jude.julius.547"><i class="bi-1 bi-facebook p-2" style="font-size: 40px;"></a></i>
                   <a href="tel:0813808892"><i class="bi-1 bi-whatsapp p-2" style="font-size: 40px;"></a></i>
                   <a href="https://github.com/judejulius/Portfolio"><i class="bi-1 bi-github p-2" style="font-size: 40px;"></a></i>
-                  <a href="https://www.linkedin.com/in/jude-julius-a56299212"><i class="bi-1 bi-linkedin p-2" style="font-size: 40px;"></i></a>
+                  <a href="https://codepen.io/your-work/"><i class="fab fa-codepen p-2" style="font-size: 40px;"></i></a>
                 </p>
                 <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6 h-40 p-5 border ">
-                  <h1 class="text-muted" style="font-size: 30px;">Call me</h1>
-                  <p style="font-size: 15px ;">080 380 8892</p>
+                  <h1 class="text-muted" style="font-size: 30px; text-align:center">Call me</h1>
+                  <p style="font-size: 15px ; text-align:center">080 380 8892</p>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6 h-40 p-5 border">
-                  <h1 style="font-size: 30px;" class="text-muted" >Email Me</h1>
-                  <p style="font-size: 15px;">judejulius12@gmail</p>
+                  <h1 style="font-size: 30px; text-align:center" class="text-muted" >Email Me</h1>
+                  <p style="font-size: 15px; text-align:center">judejulius12@gmail</p>
                 </div>
                 </div>
               </div>
@@ -212,12 +277,13 @@
            <textarea class="form-control" name="message"  required id="exampleFormControlTextarea1" rows="3" placeholder="Message..."></textarea>
           </div>
           <div class="col-12" style="text-align: center;">
-            <button type="submit" class="btn btn-outline-warning btn-lg text-dark"><b class="color:white">Submit</b></button>
+            <button type="submit" class="button ghost btn btn-outline-warning btn-lg text-dark"><b class="color:white">Submit</b></button>
           </div>
         </div>
             </div>
           </div>
         </form>
+      </div>
     </section>
   </article>
 </main>
