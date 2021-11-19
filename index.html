@@ -18,16 +18,42 @@
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     
     <main role="main">
-      <header class="mb-auto">
-        <div>
-          <h3 class="float-md-start mb-0">Jude Julius</h3>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link active" aria-current="page" href="#slide=1">Home</a>
-            <a class="nav-link" href="#slide=2">About</a>
-            <a class="nav-link" href="#slide=9">Contact</a>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: aliceblue; font-size: 30px;">Jude Julius</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#slide=1" style="font-size: 20px; color: aliceblue;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide=2" style="color: aliceblue; font-size: 20px;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide=3" style="color: aliceblue; font-size: 20px;">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide=4" style="color: aliceblue; font-size: 20px;">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide=5" style="color: aliceblue; font-size: 20px;">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide=6" style="color: aliceblue; font-size: 20px;">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide=10" style="color: aliceblue; font-size: 20px;">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </a>
+            </ul>  
+          </div>
         </div>
-      </header>
+      </nav>
     <article id="webslides" class="horizontal">
       
       <section class="bg-primary">
@@ -45,7 +71,8 @@
          </div>
        </section>
     <section>
-      <div class="wrap">
+      <div>
+      <div class="wrap" style="position: absolute; top: 0;">
         <!-- About me -->
         <h1 class="header aligncenter"><strong>ABOUT ME</strong></h1>
         <div class="grid vertical-align" style="padding-left: 100px;">
@@ -61,6 +88,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- skills -->
     <section id="skills" class="bg-primary">
@@ -134,11 +162,16 @@
             </div>
           </li>
         </ul>
-      </div>
+      </div> 
+    </section>
+    <!-- resume -->
+    <section>
+
     </section>
     <!-- projects -->
+
     <section id="project">
-      <div class="wrap">
+      <div class="wrap" >
         <h1 class="project aligncenter"><strong>PROJECTS</strong></h1>
         <ul class="flexblock gallery">
           <li>
@@ -195,6 +228,7 @@
       <div class="wrap">
         <div class="content-center bg-trans-dark fadeInUp">
           <h2><strong>Testimonial</strong></h2>
+          <p><a class="button ghost" href="#slide=7">----> slide</a>
         </div>
       </div>
     </section>

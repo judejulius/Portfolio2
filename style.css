@@ -14,6 +14,9 @@ body{
     padding-bottom: 30px;
   }
 }
+.nav-link{
+  float: left;
+}
 section{
   padding-bottom: 100px;
   background-color: rgba(239, 238, 243, 1);
