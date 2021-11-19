@@ -4,7 +4,6 @@ body{
   padding: 0;
   margin: 0;
 }
-/* Center the loader */
 #loader {
   position: absolute;
   left: 50%;
@@ -14,8 +13,8 @@ body{
   height: 120px;
   margin: -76px 0 0 -76px;
   border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
+  border-radius: 100%;
+  border-top: 16px solid #0d6efd;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -51,7 +50,7 @@ body{
 
 #myDiv {
   display: none;
-  text-align: center;
+  background-color: #333;
 }
 .background{
   background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/jonatan-pie-h8nxGssjQXs-unsplash.jpg);
@@ -70,63 +69,54 @@ section{
   padding-bottom: 100px;
   background-color: rgba(239, 238, 243, 1);
 }
-.active{
+.nav-link:hover{
+  color: #0d6efd !important;
+}
+.nav-link:active{
   color: #0d6efd;
 }
-.active:hover{
-  color: #0d6efd !important;
-  border-bottom: 5px #0d6efd !important;
-}
-h1 {
-  padding: 0px 0px 0 8px;
-  position: relative;
-}
-/* 
-.header::before {
-  content: "";
-  position: absolute;
-  left: 40%;
-  bottom: 16px;
-  width: 150px;
-  height: 14px;
-  transform: skew(-12deg) translateX(-50%);
-  background: #0d6efd;
-  z-index: -1;
-}
-.skills::before {
-  content: "";
-  position: absolute;
-  left: 45%;
-  bottom: 16px;
-  width: 150px;
-  height: 14px;
-  transform: skew(-12deg) translateX(-50%);
-  background: #0d6efd;
-  z-index: -1;
-}
-.contact::before {
-  content: "";
-  position: absolute;
-  left: 38%;
-  bottom: 10px;
-  width: 150px;
-  height: 14px;
-  transform: skew(-12deg) translateX(-50%);
-  background: #0d6efd;
-  z-index: -1;
-}
-.project::before {
-  content: "";
-  position: absolute;
-  left: 41%;
-  bottom: 13px;
-  width: 150px;
-  height: 14px;
-  transform: skew(-12deg) translateX(-50%);
-  background: #0d6efd;
-  z-index: -1;
-} */
 
+
+/* resume */
+.timeline{
+  width: 600px;
+  height: auto;
+  margin: 50px auto 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.timeline li{
+  position: relative;
+  list-style: none;
+}
+.timeline li .item{
+   position: relative;
+   min-height: 60px;
+   padding:0 20px 20px 30px ;
+   margin-left: 20px;
+   border-left: 1px solid black;
+}
+.timeline li .item span{
+  position: absolute;
+  top: -8px;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: aliceblue;
+  background-color: #333;
+  font-weight: 700;
+  border-radius: 100%;
+}
+.timeline li .item h3,
+.timeline li .item p
+.timeline li .item h5
+{
+  
+  margin: 0;
+  padding: 0;
+}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-size: 20px;
 }
