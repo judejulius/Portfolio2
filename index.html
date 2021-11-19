@@ -15,37 +15,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-    
-    <main role="main">
+  <body onload="myFunction()" style="margin: 0;">
+    <div id="loader"></div>
+  
+    <main role="main" id="myDiv" style="display:none" class="animate-bottom">
       <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: aliceblue; font-size: 30px;">Jude Julius</a>
+          <a class="navbar-brand" href="#slide=1" style="color: aliceblue; font-size: 30px;">Jude Julius</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#slide=1" style="font-size: 20px; color: aliceblue;">Home</a>
+                <a class="nav-link active" aria-current="page" href="#slide=1" style="font-size: 20px; color: aliceblue;padding-left: 80px;">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#slide=2" style="color: aliceblue; font-size: 20px;">About</a>
+                <a class="nav-link active" aria-current="page" href="#slide=2" style="color: aliceblue; font-size: 20px;">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#slide=3" style="color: aliceblue; font-size: 20px;">Skills</a>
+                <a class="nav-link active" aria-current="page" href="#slide=3" style="color: aliceblue; font-size: 20px;">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#slide=4" style="color: aliceblue; font-size: 20px;">Resume</a>
+                <a class="nav-link active" aria-current="page" href="#slide=4" style="color: aliceblue; font-size: 20px;">Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#slide=5" style="color: aliceblue; font-size: 20px;">Project</a>
+                <a class="nav-link active" aria-current="page" href="#slide=5" style="color: aliceblue; font-size: 20px;">Project</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#slide=6" style="color: aliceblue; font-size: 20px;">Testimonial</a>
+                <a class="nav-link active" aria-current="page" href="#slide=6" style="color: aliceblue; font-size: 20px;">Testimonial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#slide=10" style="color: aliceblue; font-size: 20px;">Contact</a>
+                <a class="nav-link active" aria-current="page" href="#slide=10" style="color: aliceblue; font-size: 20px;">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,39 +62,54 @@
          <div class="wrap aligncenter">
            <h1 class="text-landing">Jude Julius</h1>
            <p class="text-symbols">
-            <a href="tel:0813808892"><i class="bi-1 bi-whatsapp p-2" style="font-size: 40px;"></a></i>
-            <a href="https://github.com/judejulius/Portfolio"><i class="bi-1 bi-github p-2" style="font-size: 40px;"></a></i>
-            <a href="https://www.linkedin.com/in/jude-julius-a56299212"><i class="bi-1 bi-linkedin p-2" style="font-size: 40px;"></i></a>
-            <a href="https://codepen.io/your-work/"><i class="fab fa-codepen p-2" style="font-size: 40px;"></i></a>
+            <a target="_blank" href="tel:0813808892"><i class="bi-1 bi-whatsapp p-2" style="font-size: 40px;"></a></i>
+            <a target="_blank" href="https://github.com/judejulius/Portfolio"><i class="bi-1 bi-github p-2" style="font-size: 40px;"></a></i>
+            <a target="_blank" href="https://www.linkedin.com/in/jude-julius-a56299212"><i class="bi-1 bi-linkedin p-2" style="font-size: 40px;"></i></a>
+            <a target="_blank" href="https://codepen.io/your-work/"><i class="fab fa-codepen p-2" style="font-size: 40px;"></i></a>
           </p>
            <p><a class="button ghost" href="#slide=2">----> slide</a>
            </p>
          </div>
        </section>
-    <section>
-      <div>
-      <div class="wrap" style="position: absolute; top: 0;">
-        <!-- About me -->
-        <h1 class="header aligncenter"><strong>ABOUT ME</strong></h1>
-        <div class="grid vertical-align" style="padding-left: 100px;">
-          <div class="column">
-            <h4><strong>I am Jude Julius<br> A Frontend-Developer</strong></h4>
-            <p class="p1 text-intro">
-              I am a hard-working, critical thinker who enjoys challenges and problem-solving. I work well on my own but also as a team. Furthermore, I enjoy talking to people about informative topics
+       <section>
+         <div class="wrap">
+          <h1 class="skills aligncenter"><strong>ABOUT</strong></h1>
+        <div class="card-50">
+          <figure>
+            <img src="/images/Jude3.JPG" style="width: 80%; border-radius: 100%;" alt="jude">
+          </figure>
+          <div class="flex-content">
+            <h1>Jude Julius
+            </h2>
+            <h4><Strong>I am Front-end Developer</Strong></h4>
+            <p class="text-intro">I am a hard-working, critical thinker who enjoys challenges and problem-solving. I work well on my own but also as a team. Furthermore, I enjoy talking to people about informative topics
             </p>
+            <div class="container">
+              <div class="row">
+            <div class="feature col-sm-12 col-md-6 col-lg-6">
+            <ul class="description">
+              <li><strong class="text-into">Full name : </strong><span> Jude Antonio Julius</span></li>
+              <li><strong class="text-into">Birth Date : </strong><span>23/12/1998</span></li>
+              <li><strong class="text-into">Location: </strong><span> Cape Town</span></li>
+              </ul>
+              </div>
+              <div class="feature col-sm-12 col-md-6 col-lg-6">
+              <ul class="description">
+                <li><strong class="text-into">Email : </strong><span>www.judejulius@gmail.com</span></li>
+              <li><strong class="text-into">Phone : </strong><span>081 380 8892</span></li>
+              <li><strong class="text-into">Freelance : </strong><span>Available</span></li>
+            </ul>
           </div>
-          <div class="column">
-            <img src="/images/Jude3.JPG" alt="" width="90%" style="border-radius: 100%;">
-            </div>
+        </div>
+        </div>
           </div>
         </div>
       </div>
-    </div>
-    </section>
+      </section>
     <!-- skills -->
     <section id="skills" class="bg-primary">
       <div class="wrap">
-        <h1 class="skills aligncenter"><strong>SKILLS</strong></h1>
+        <h1 class="skills aligncenter" style=""><strong>SKILLS</strong></h1>
         <ul class="flexblock features bg-trans-dark fadeInUp">
           <li class="bg-trans-dark">
             <h3>HTML</h3>
@@ -171,7 +187,7 @@
     <!-- projects -->
 
     <section id="project">
-      <div class="wrap" >
+      <div class="wrap" > 
         <h1 class="project aligncenter"><strong>PROJECTS</strong></h1>
         <ul class="flexblock gallery">
           <li>
@@ -182,8 +198,8 @@
                   <h2 class="aligncenter">Animation</h2>
                   <p>Animation using images and @keyframes with some additional css properties </p>
                   <p style="padding-top: 30px;">
-                    <a href="https://github.com/judejulius/Animation"><i class="fab fa-github" style="font-size: 60px;"></i></a>
-                    <a href="https://keen-murdock-be4795.netlify.app/"><span class="iconify" data-icon="logos:netlify" style="float: right; font-size: 60px;"></span></a>
+                    <a target="_blank" href="https://github.com/judejulius/Animation"><i class="fab fa-github" style="font-size: 60px;"></i></a>
+                    <a target="_blank" href="https://keen-murdock-be4795.netlify.app/"><span class="iconify" data-icon="logos:netlify" style="float: right; font-size: 60px;"></span></a>
                   </p>
                 </figcaption>
               </figure>
@@ -197,8 +213,8 @@
                   <h2 class="aligncenter">Flip Cards</h2>
                   <p>One of my developments using flex and grit and some animation.</p>
                   <p style="padding-top: 30px;">
-                    <a href="https://github.com/judejulius/Flip-cards"><i class="fab fa-github" style="font-size: 60px;"></i></a>
-                    <a href="https://gifted-turing-739975.netlify.app/"><span class="iconify" data-icon="logos:netlify" style="float: right; font-size: 60px;"></span></a>
+                    <a target="_blank" href="https://github.com/judejulius/Flip-cards"><i class="fab fa-github" style="font-size: 60px;"></i></a>
+                    <a target="_blank" href="https://gifted-turing-739975.netlify.app/"><span class="iconify" data-icon="logos:netlify" style="float: right; font-size: 60px;"></span></a>
                   </p>
                 </figcaption>
               </figure>
@@ -212,8 +228,8 @@
                   <h2 class="aligncenter">Cards</h2>
                   <p>Develop Cards using html and css with animation as well</p>
                   <p style="padding-top: 30px;">
-                  <a href="https://github.com/judejulius/Cards"><i class="fab fa-github" style="font-size: 60px;"></i></a>
-                  <a href="https://tender-snyder-7b4644.netlify.app/"><span class="iconify" data-icon="logos:netlify" style="float: right; font-size: 60px;"></span></a>
+                  <a target="_blank" href="https://github.com/judejulius/Cards"><i class="fab fa-github" style="font-size: 60px;"></i></a>
+                  <a target="_blank" href="https://tender-snyder-7b4644.netlify.app/"><span class="iconify" data-icon="logos:netlify" style="float: right; font-size: 60px;"></span></a>
                 </p>
                 </figcaption>
               </figure>
@@ -274,10 +290,10 @@
             <div class="col-lg-6" data-aos="fade-up-right">
               <div class="h-100 p-5 border rounded-3">
                 <p class="social-media" style="text-align: center; overflow: hidden;">
-                  <a href="https://www.facebook.com/jude.julius.547"><i class="bi-1 bi-facebook p-2" style="font-size: 40px;"></a></i>
-                  <a href="tel:0813808892"><i class="bi-1 bi-whatsapp p-2" style="font-size: 40px;"></a></i>
-                  <a href="https://github.com/judejulius/Portfolio"><i class="bi-1 bi-github p-2" style="font-size: 40px;"></a></i>
-                  <a href="https://codepen.io/your-work/"><i class="fab fa-codepen p-2" style="font-size: 40px;"></i></a>
+                  <a target="_blank" href="https://www.facebook.com/jude.julius.547"><i class="bi-1 bi-facebook p-2" style="font-size: 40px;"></a></i>
+                  <a target="_blank" href="tel:0813808892"><i class="bi-1 bi-whatsapp p-2" style="font-size: 40px;"></a></i>
+                  <a target="_blank" href="https://github.com/judejulius/Portfolio"><i class="bi-1 bi-github p-2" style="font-size: 40px;"></a></i>
+                  <a target="_blank" href="https://codepen.io/your-work/"><i class="fab fa-codepen p-2" style="font-size: 40px;"></i></a>
                 </p>
                 <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6 h-40 p-5 border ">
@@ -311,7 +327,7 @@
            <textarea class="form-control" name="message"  required id="exampleFormControlTextarea1" rows="3" placeholder="Message..."></textarea>
           </div>
           <div class="col-12" style="text-align: center;">
-            <button type="submit" class="button ghost btn btn-outline-warning btn-lg text-dark"><b class="color:white">Submit</b></button>
+            <button type="submit" target="_blank"  class="button ghost btn btn-outline-warning btn-lg text-dark"><b class="color:white">Submit</b></button>
           </div>
         </div>
             </div>
@@ -321,6 +337,18 @@
     </section>
   </article>
 </main>
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
     <script src="/js/webslides.js"></script>
     <script> window.ws = new WebSlides()</script>
